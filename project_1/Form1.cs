@@ -84,5 +84,14 @@ namespace project_1
                 MessageBox.Show("Wrong");
             }
         }
+
+        private void btn_sign_up_Click(object sender, EventArgs e)
+        {
+            string link = user_email.Text;
+            Form2 obj = new Form2(link);
+            obj.Show();
+            this.Hide();
+
+        }
     }
 }
