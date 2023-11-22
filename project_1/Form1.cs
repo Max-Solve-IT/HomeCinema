@@ -27,5 +27,62 @@ namespace project_1
         {
 
         }
+
+        private void user_email_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void user_email_Enter(object sender, EventArgs e)
+        {
+            if(user_email.Text == "Email")
+            {
+                user_email.Text = "";
+
+            }
+        }
+
+        private void user_email_Leave(object sender, EventArgs e)
+
+        {
+            if (user_email.Text == "")
+            {
+                user_email.Text = "Email";
+            }
+
+        }
+
+        private void Password_field_Enter(object sender, EventArgs e)
+        {
+            if (Password_field.Text== "Password")
+            {
+                Password_field.Text = "";
+            }
+        }
+
+        private void Password_field_Leave(object sender, EventArgs e)
+        {
+            if (Password_field.Text == "")
+            {
+                Password_field.Text ="Password";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(user_email.Text=="swajan" && Password_field.Text == "barua")
+            {
+                MessageBox.Show("Passed");
+            }
+            else
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
     }
 }
