@@ -20,14 +20,45 @@ namespace project_1
         public Form2(string link)
         {
             InitializeComponent();
-            axWindowsMediaPlayer1.URL = link;
+            player.URL = link;
+            // "C:\Users\Swajan\Downloads\testVideo.mp4"
         }
 
-       
+
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+            if(player.playState == WMPLib.WMPPlayState.wmppsPaused)
+            {
+                player.Ctlcontrols.play();
+                play_btn.Hide();
+                pause_btn.Show();
+
+            }
+        }
+
+        private void pause_btn_Click(object sender, EventArgs e)
+        {
+            if (player.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                player.Ctlcontrols.pause();
+                pause_btn.Hide();
+                play_btn.Show();
+            }
+            
+            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    }
