@@ -75,7 +75,7 @@ namespace project_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(user_email.Text=="swajan" && Password_field.Text == "barua")
+            if(user_email.Text=="admin" && Password_field.Text == "admin")
             {
                 MessageBox.Show("Passed");
             }
