@@ -13,6 +13,7 @@ namespace project_1
         /// </summary>
         [STAThread]
         static void Main()
+            //jhkl
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
