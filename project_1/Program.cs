@@ -13,11 +13,11 @@ namespace project_1
         /// </summary>
         [STAThread]
         static void Main()
-            //jhkl
+           
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home_Page());
+            Application.Run(new Form2());
         }
     }
 }

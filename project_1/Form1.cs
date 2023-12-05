@@ -77,7 +77,14 @@ namespace project_1
         {
             if(user_email.Text=="admin" && Password_field.Text == "admin")
             {
-                MessageBox.Show("Passed");
+                Home_Page home_Page = new Home_Page(this);
+               
+                home_Page.Show();
+                this.Hide();
+                
+                //this.Dispose();
+                
+                //MessageBox.Show("Passed");
             }
             else
             {

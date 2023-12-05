@@ -34,13 +34,18 @@
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.search_btn = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.cross = new System.Windows.Forms.Button();
             this.media_Box25 = new project_1.Media_Box();
             this.media_Box26 = new project_1.Media_Box();
             this.media_Box27 = new project_1.Media_Box();
@@ -73,9 +78,6 @@
             this.media_Box14 = new project_1.Media_Box();
             this.media_Box15 = new project_1.Media_Box();
             this.media_Box16 = new project_1.Media_Box();
-            this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.search_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -84,6 +86,7 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -167,15 +170,6 @@
             this.panel1.Size = new System.Drawing.Size(1101, 33);
             this.panel1.TabIndex = 11;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkRed;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(15, 334);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1101, 33);
-            this.panel2.TabIndex = 12;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -186,6 +180,15 @@
             this.label1.Size = new System.Drawing.Size(70, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Action";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkRed;
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(15, 334);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1101, 33);
+            this.panel2.TabIndex = 12;
             // 
             // label2
             // 
@@ -237,6 +240,49 @@
             this.label4.Size = new System.Drawing.Size(98, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Comedies";
+            // 
+            // directorySearcher1
+            // 
+            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(861, 36);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 34);
+            this.textBox1.TabIndex = 15;
+            // 
+            // search_btn
+            // 
+            this.search_btn.Image = ((System.Drawing.Image)(resources.GetObject("search_btn.Image")));
+            this.search_btn.Location = new System.Drawing.Point(1043, 36);
+            this.search_btn.Name = "search_btn";
+            this.search_btn.Size = new System.Drawing.Size(59, 35);
+            this.search_btn.TabIndex = 16;
+            this.search_btn.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.cross);
+            this.panel5.Location = new System.Drawing.Point(1, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1112, 31);
+            this.panel5.TabIndex = 17;
+            // 
+            // cross
+            // 
+            this.cross.BackColor = System.Drawing.Color.FromArgb(200, 0, 0,0);
+            this.cross.Dock = System.Windows.Forms.DockStyle.Right;
+            this.cross.Image = ((System.Drawing.Image)(resources.GetObject("cross.Image")));
+            this.cross.Location = new System.Drawing.Point(1066, 0);
+            this.cross.Name = "cross";
+            this.cross.Size = new System.Drawing.Size(46, 31);
+            this.cross.TabIndex = 0;
+            this.cross.UseVisualStyleBackColor = false;
+            this.cross.Click += new System.EventHandler(this.button1_Click);
             // 
             // media_Box25
             // 
@@ -369,7 +415,7 @@
             // media_Box1
             // 
             this.media_Box1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box1.Location = new System.Drawing.Point(3, 201);
+            this.media_Box1.Location = new System.Drawing.Point(3, 4);
             this.media_Box1.Name = "media_Box1";
             this.media_Box1.Size = new System.Drawing.Size(270, 192);
             this.media_Box1.TabIndex = 0;
@@ -377,7 +423,7 @@
             // media_Box2
             // 
             this.media_Box2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box2.Location = new System.Drawing.Point(3, 3);
+            this.media_Box2.Location = new System.Drawing.Point(279, 4);
             this.media_Box2.Name = "media_Box2";
             this.media_Box2.Size = new System.Drawing.Size(270, 192);
             this.media_Box2.TabIndex = 1;
@@ -385,7 +431,7 @@
             // media_Box3
             // 
             this.media_Box3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box3.Location = new System.Drawing.Point(279, 201);
+            this.media_Box3.Location = new System.Drawing.Point(555, 4);
             this.media_Box3.Name = "media_Box3";
             this.media_Box3.Size = new System.Drawing.Size(270, 192);
             this.media_Box3.TabIndex = 2;
@@ -393,7 +439,7 @@
             // media_Box4
             // 
             this.media_Box4.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box4.Location = new System.Drawing.Point(279, 3);
+            this.media_Box4.Location = new System.Drawing.Point(831, 4);
             this.media_Box4.Name = "media_Box4";
             this.media_Box4.Size = new System.Drawing.Size(270, 192);
             this.media_Box4.TabIndex = 3;
@@ -401,7 +447,7 @@
             // media_Box5
             // 
             this.media_Box5.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box5.Location = new System.Drawing.Point(555, 201);
+            this.media_Box5.Location = new System.Drawing.Point(1107, 4);
             this.media_Box5.Name = "media_Box5";
             this.media_Box5.Size = new System.Drawing.Size(270, 192);
             this.media_Box5.TabIndex = 4;
@@ -409,7 +455,7 @@
             // media_Box6
             // 
             this.media_Box6.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box6.Location = new System.Drawing.Point(555, 3);
+            this.media_Box6.Location = new System.Drawing.Point(1383, 4);
             this.media_Box6.Name = "media_Box6";
             this.media_Box6.Size = new System.Drawing.Size(270, 192);
             this.media_Box6.TabIndex = 5;
@@ -417,7 +463,7 @@
             // media_Box7
             // 
             this.media_Box7.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box7.Location = new System.Drawing.Point(831, 201);
+            this.media_Box7.Location = new System.Drawing.Point(1659, 4);
             this.media_Box7.Name = "media_Box7";
             this.media_Box7.Size = new System.Drawing.Size(270, 192);
             this.media_Box7.TabIndex = 6;
@@ -425,7 +471,7 @@
             // media_Box8
             // 
             this.media_Box8.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box8.Location = new System.Drawing.Point(831, 3);
+            this.media_Box8.Location = new System.Drawing.Point(1935, 4);
             this.media_Box8.Name = "media_Box8";
             this.media_Box8.Size = new System.Drawing.Size(270, 192);
             this.media_Box8.TabIndex = 7;
@@ -494,36 +540,15 @@
             this.media_Box16.Size = new System.Drawing.Size(270, 192);
             this.media_Box16.TabIndex = 7;
             // 
-            // directorySearcher1
-            // 
-            this.directorySearcher1.ClientTimeout = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerPageTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            this.directorySearcher1.ServerTimeLimit = System.TimeSpan.Parse("-00:00:01");
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(860, 11);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 34);
-            this.textBox1.TabIndex = 15;
-            // 
-            // search_btn
-            // 
-            this.search_btn.Image = ((System.Drawing.Image)(resources.GetObject("search_btn.Image")));
-            this.search_btn.Location = new System.Drawing.Point(1042, 11);
-            this.search_btn.Name = "search_btn";
-            this.search_btn.Size = new System.Drawing.Size(59, 35);
-            this.search_btn.TabIndex = 16;
-            this.search_btn.UseVisualStyleBackColor = true;
-            // 
             // Home_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1129, 565);
+            this.ClientSize = new System.Drawing.Size(1129, 599);
+            this.ControlBox = false;
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.search_btn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel4);
@@ -534,7 +559,9 @@
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.flowLayoutPanel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home_Page";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home_Page";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
@@ -548,6 +575,7 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -602,5 +630,7 @@
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button search_btn;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button cross;
     }
 }
