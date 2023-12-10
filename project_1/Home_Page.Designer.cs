@@ -45,7 +45,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.search_btn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.cross = new System.Windows.Forms.Button();
             this.media_Box25 = new project_1.Media_Box();
             this.media_Box26 = new project_1.Media_Box();
             this.media_Box27 = new project_1.Media_Box();
@@ -78,6 +77,7 @@
             this.media_Box14 = new project_1.Media_Box();
             this.media_Box15 = new project_1.Media_Box();
             this.media_Box16 = new project_1.Media_Box();
+            this.Log_out_btn = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -266,23 +266,11 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.cross);
+            this.panel5.Controls.Add(this.Log_out_btn);
             this.panel5.Location = new System.Drawing.Point(1, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1112, 31);
             this.panel5.TabIndex = 17;
-            // 
-            // cross
-            // 
-            this.cross.BackColor = System.Drawing.Color.FromArgb(200, 0, 0,0);
-            this.cross.Dock = System.Windows.Forms.DockStyle.Right;
-            this.cross.Image = ((System.Drawing.Image)(resources.GetObject("cross.Image")));
-            this.cross.Location = new System.Drawing.Point(1066, 0);
-            this.cross.Name = "cross";
-            this.cross.Size = new System.Drawing.Size(46, 31);
-            this.cross.TabIndex = 0;
-            this.cross.UseVisualStyleBackColor = false;
-            this.cross.Click += new System.EventHandler(this.button1_Click);
             // 
             // media_Box25
             // 
@@ -540,14 +528,23 @@
             this.media_Box16.Size = new System.Drawing.Size(270, 192);
             this.media_Box16.TabIndex = 7;
             // 
+            // Log_out_btn
+            // 
+            this.Log_out_btn.Location = new System.Drawing.Point(11, 5);
+            this.Log_out_btn.Name = "Log_out_btn";
+            this.Log_out_btn.Size = new System.Drawing.Size(75, 23);
+            this.Log_out_btn.TabIndex = 0;
+            this.Log_out_btn.Text = "Log Out";
+            this.Log_out_btn.UseVisualStyleBackColor = true;
+            this.Log_out_btn.Click += new System.EventHandler(this.Log_out_btn_Click);
+            // 
             // Home_Page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1129, 599);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(1112, 582);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.search_btn);
             this.Controls.Add(this.textBox1);
@@ -559,7 +556,6 @@
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.flowLayoutPanel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Home_Page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home_Page";
@@ -631,6 +627,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button search_btn;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button cross;
+        private System.Windows.Forms.Button Log_out_btn;
     }
 }

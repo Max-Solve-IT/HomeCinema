@@ -133,15 +133,7 @@
         uZs5ugWoE3lqS4A4VSLbbQq4yL1+PAo7bPwAnqmN6dGEJ9UAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="cross.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAEBSURBVEhL7ZXRCsIwDEXnDzodEx/02xU2nMr8A4V5M1qo
-        tWmzrnsQWwgDl5uz3Ka1KPLKDvyNA8Mw7BAPxAWxkTaO3C3iiugRtVQ35kGwUkI8xvVE7ENFKEflal0f
-        0ny9h/Ku1RK4A0qyWwy4sr6e7ZyBkkvVZLCyvHbAX/jtqAuqWSCIuSjnEAU1CrPwxaAG3B4abbvdqWgI
-        JzkBkqvztPZyX+SBz99Tnw3MnlLXHwM3ycpQsgeq7U4P95zT5YbLd2SYPZ/fueScJoejYJngyixDs+P6
-        k2ita9B7OTBz0MSAOwMsupEc8C4GTFY3iBPZLi2gtuistGupLudlB37fgTcG7QtfRMZyGAAAAABJRU5E
-        rkJggg==
-</value>
-  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
 </root>

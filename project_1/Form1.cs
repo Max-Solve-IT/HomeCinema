@@ -17,7 +17,7 @@ namespace project_1
             InitializeComponent();
         }
 
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -30,7 +30,7 @@ namespace project_1
 
         private void user_email_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void Password_TextChanged(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace project_1
 
         private void user_email_Enter(object sender, EventArgs e)
         {
-            if(user_email.Text == "Email")
+            if (user_email.Text == "Email")
             {
                 user_email.Text = "";
 
@@ -59,7 +59,7 @@ namespace project_1
 
         private void Password_field_Enter(object sender, EventArgs e)
         {
-            if (Password_field.Text== "Password")
+            if (Password_field.Text == "Password")
             {
                 Password_field.Text = "";
             }
@@ -69,21 +69,22 @@ namespace project_1
         {
             if (Password_field.Text == "")
             {
-                Password_field.Text ="Password";
+                Password_field.Text = "Password";
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(user_email.Text=="admin" && Password_field.Text == "admin")
+            if (user_email.Text == "admin" && Password_field.Text == "admin")
             {
                 Home_Page home_Page = new Home_Page(this);
-               
+
                 home_Page.Show();
                 this.Hide();
-                
+                home_Page.FormClosed += (s, args) => this.Close();
+
                 //this.Dispose();
-                
+
                 //MessageBox.Show("Passed");
             }
             else
