@@ -83,8 +83,6 @@ namespace project_1
                 this.Hide();
 
                 home_Page.FormClosed += (s, args) => this.Close();
-
-                
             }
             else
             {

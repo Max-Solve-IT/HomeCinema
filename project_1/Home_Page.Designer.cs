@@ -29,10 +29,42 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home_Page));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Action_flowLayoutPane = new System.Windows.Forms.FlowLayoutPanel();
+            this.media_Box1 = new project_1.Media_Box();
+            this.media_Box2 = new project_1.Media_Box();
+            this.media_Box3 = new project_1.Media_Box();
+            this.media_Box4 = new project_1.Media_Box();
+            this.media_Box5 = new project_1.Media_Box();
+            this.media_Box6 = new project_1.Media_Box();
+            this.media_Box7 = new project_1.Media_Box();
+            this.media_Box8 = new project_1.Media_Box();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.media_Box9 = new project_1.Media_Box();
+            this.media_Box10 = new project_1.Media_Box();
+            this.media_Box11 = new project_1.Media_Box();
+            this.media_Box12 = new project_1.Media_Box();
+            this.media_Box13 = new project_1.Media_Box();
+            this.media_Box14 = new project_1.Media_Box();
+            this.media_Box15 = new project_1.Media_Box();
+            this.media_Box16 = new project_1.Media_Box();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.media_Box17 = new project_1.Media_Box();
+            this.media_Box18 = new project_1.Media_Box();
+            this.media_Box19 = new project_1.Media_Box();
+            this.media_Box20 = new project_1.Media_Box();
+            this.media_Box21 = new project_1.Media_Box();
+            this.media_Box22 = new project_1.Media_Box();
+            this.media_Box23 = new project_1.Media_Box();
+            this.media_Box24 = new project_1.Media_Box();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.media_Box25 = new project_1.Media_Box();
+            this.media_Box26 = new project_1.Media_Box();
+            this.media_Box27 = new project_1.Media_Box();
+            this.media_Box28 = new project_1.Media_Box();
+            this.media_Box29 = new project_1.Media_Box();
+            this.media_Box30 = new project_1.Media_Box();
+            this.media_Box31 = new project_1.Media_Box();
+            this.media_Box32 = new project_1.Media_Box();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -45,40 +77,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.search_btn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.media_Box25 = new project_1.Media_Box();
-            this.media_Box26 = new project_1.Media_Box();
-            this.media_Box27 = new project_1.Media_Box();
-            this.media_Box28 = new project_1.Media_Box();
-            this.media_Box29 = new project_1.Media_Box();
-            this.media_Box30 = new project_1.Media_Box();
-            this.media_Box31 = new project_1.Media_Box();
-            this.media_Box32 = new project_1.Media_Box();
-            this.media_Box17 = new project_1.Media_Box();
-            this.media_Box18 = new project_1.Media_Box();
-            this.media_Box19 = new project_1.Media_Box();
-            this.media_Box20 = new project_1.Media_Box();
-            this.media_Box21 = new project_1.Media_Box();
-            this.media_Box22 = new project_1.Media_Box();
-            this.media_Box23 = new project_1.Media_Box();
-            this.media_Box24 = new project_1.Media_Box();
-            this.media_Box1 = new project_1.Media_Box();
-            this.media_Box2 = new project_1.Media_Box();
-            this.media_Box3 = new project_1.Media_Box();
-            this.media_Box4 = new project_1.Media_Box();
-            this.media_Box5 = new project_1.Media_Box();
-            this.media_Box6 = new project_1.Media_Box();
-            this.media_Box7 = new project_1.Media_Box();
-            this.media_Box8 = new project_1.Media_Box();
-            this.media_Box9 = new project_1.Media_Box();
-            this.media_Box10 = new project_1.Media_Box();
-            this.media_Box11 = new project_1.Media_Box();
-            this.media_Box12 = new project_1.Media_Box();
-            this.media_Box13 = new project_1.Media_Box();
-            this.media_Box14 = new project_1.Media_Box();
-            this.media_Box15 = new project_1.Media_Box();
-            this.media_Box16 = new project_1.Media_Box();
             this.Log_out_btn = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.Action_flowLayoutPane.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
@@ -89,23 +89,87 @@
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // Action_flowLayoutPane
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.media_Box1);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box2);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box3);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box4);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box5);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box6);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box7);
-            this.flowLayoutPanel1.Controls.Add(this.media_Box8);
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.BottomUp;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 112);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1115, 216);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.Action_flowLayoutPane.AutoScroll = true;
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box1);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box2);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box3);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box4);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box5);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box6);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box7);
+            this.Action_flowLayoutPane.Controls.Add(this.media_Box8);
+            this.Action_flowLayoutPane.FlowDirection = System.Windows.Forms.FlowDirection.BottomUp;
+            this.Action_flowLayoutPane.Location = new System.Drawing.Point(12, 112);
+            this.Action_flowLayoutPane.Name = "Action_flowLayoutPane";
+            this.Action_flowLayoutPane.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Action_flowLayoutPane.Size = new System.Drawing.Size(1115, 216);
+            this.Action_flowLayoutPane.TabIndex = 0;
+            // 
+            // media_Box1
+            // 
+            this.media_Box1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box1.Location = new System.Drawing.Point(3, 4);
+            this.media_Box1.Name = "media_Box1";
+            this.media_Box1.Size = new System.Drawing.Size(270, 192);
+            this.media_Box1.TabIndex = 0;
+            // 
+            // media_Box2
+            // 
+            this.media_Box2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box2.Location = new System.Drawing.Point(279, 4);
+            this.media_Box2.Name = "media_Box2";
+            this.media_Box2.Size = new System.Drawing.Size(270, 192);
+            this.media_Box2.TabIndex = 1;
+            // 
+            // media_Box3
+            // 
+            this.media_Box3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box3.Location = new System.Drawing.Point(555, 4);
+            this.media_Box3.Name = "media_Box3";
+            this.media_Box3.Size = new System.Drawing.Size(270, 192);
+            this.media_Box3.TabIndex = 2;
+            // 
+            // media_Box4
+            // 
+            this.media_Box4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box4.Location = new System.Drawing.Point(831, 4);
+            this.media_Box4.Name = "media_Box4";
+            this.media_Box4.Size = new System.Drawing.Size(270, 192);
+            this.media_Box4.TabIndex = 3;
+            // 
+            // media_Box5
+            // 
+            this.media_Box5.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box5.Location = new System.Drawing.Point(1107, 4);
+            this.media_Box5.Name = "media_Box5";
+            this.media_Box5.Size = new System.Drawing.Size(270, 192);
+            this.media_Box5.TabIndex = 4;
+            // 
+            // media_Box6
+            // 
+            this.media_Box6.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box6.Location = new System.Drawing.Point(1383, 4);
+            this.media_Box6.Name = "media_Box6";
+            this.media_Box6.Size = new System.Drawing.Size(270, 192);
+            this.media_Box6.TabIndex = 5;
+            // 
+            // media_Box7
+            // 
+            this.media_Box7.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box7.Location = new System.Drawing.Point(1659, 4);
+            this.media_Box7.Name = "media_Box7";
+            this.media_Box7.Size = new System.Drawing.Size(270, 192);
+            this.media_Box7.TabIndex = 6;
+            // 
+            // media_Box8
+            // 
+            this.media_Box8.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box8.Location = new System.Drawing.Point(1935, 4);
+            this.media_Box8.Name = "media_Box8";
+            this.media_Box8.Size = new System.Drawing.Size(270, 192);
+            this.media_Box8.TabIndex = 7;
             // 
             // flowLayoutPanel2
             // 
@@ -125,6 +189,70 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(1115, 216);
             this.flowLayoutPanel2.TabIndex = 8;
             // 
+            // media_Box9
+            // 
+            this.media_Box9.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box9.Location = new System.Drawing.Point(3, 4);
+            this.media_Box9.Name = "media_Box9";
+            this.media_Box9.Size = new System.Drawing.Size(270, 192);
+            this.media_Box9.TabIndex = 0;
+            // 
+            // media_Box10
+            // 
+            this.media_Box10.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box10.Location = new System.Drawing.Point(279, 4);
+            this.media_Box10.Name = "media_Box10";
+            this.media_Box10.Size = new System.Drawing.Size(270, 192);
+            this.media_Box10.TabIndex = 1;
+            // 
+            // media_Box11
+            // 
+            this.media_Box11.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box11.Location = new System.Drawing.Point(555, 4);
+            this.media_Box11.Name = "media_Box11";
+            this.media_Box11.Size = new System.Drawing.Size(270, 192);
+            this.media_Box11.TabIndex = 2;
+            // 
+            // media_Box12
+            // 
+            this.media_Box12.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box12.Location = new System.Drawing.Point(831, 4);
+            this.media_Box12.Name = "media_Box12";
+            this.media_Box12.Size = new System.Drawing.Size(270, 192);
+            this.media_Box12.TabIndex = 3;
+            // 
+            // media_Box13
+            // 
+            this.media_Box13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box13.Location = new System.Drawing.Point(1107, 4);
+            this.media_Box13.Name = "media_Box13";
+            this.media_Box13.Size = new System.Drawing.Size(270, 192);
+            this.media_Box13.TabIndex = 4;
+            // 
+            // media_Box14
+            // 
+            this.media_Box14.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box14.Location = new System.Drawing.Point(1383, 4);
+            this.media_Box14.Name = "media_Box14";
+            this.media_Box14.Size = new System.Drawing.Size(270, 192);
+            this.media_Box14.TabIndex = 5;
+            // 
+            // media_Box15
+            // 
+            this.media_Box15.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box15.Location = new System.Drawing.Point(1659, 4);
+            this.media_Box15.Name = "media_Box15";
+            this.media_Box15.Size = new System.Drawing.Size(270, 192);
+            this.media_Box15.TabIndex = 6;
+            // 
+            // media_Box16
+            // 
+            this.media_Box16.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box16.Location = new System.Drawing.Point(1935, 4);
+            this.media_Box16.Name = "media_Box16";
+            this.media_Box16.Size = new System.Drawing.Size(270, 192);
+            this.media_Box16.TabIndex = 7;
+            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.AutoScroll = true;
@@ -143,6 +271,70 @@
             this.flowLayoutPanel3.Size = new System.Drawing.Size(1115, 216);
             this.flowLayoutPanel3.TabIndex = 9;
             // 
+            // media_Box17
+            // 
+            this.media_Box17.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box17.Location = new System.Drawing.Point(3, 4);
+            this.media_Box17.Name = "media_Box17";
+            this.media_Box17.Size = new System.Drawing.Size(270, 192);
+            this.media_Box17.TabIndex = 0;
+            // 
+            // media_Box18
+            // 
+            this.media_Box18.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box18.Location = new System.Drawing.Point(279, 4);
+            this.media_Box18.Name = "media_Box18";
+            this.media_Box18.Size = new System.Drawing.Size(270, 192);
+            this.media_Box18.TabIndex = 1;
+            // 
+            // media_Box19
+            // 
+            this.media_Box19.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box19.Location = new System.Drawing.Point(555, 4);
+            this.media_Box19.Name = "media_Box19";
+            this.media_Box19.Size = new System.Drawing.Size(270, 192);
+            this.media_Box19.TabIndex = 2;
+            // 
+            // media_Box20
+            // 
+            this.media_Box20.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box20.Location = new System.Drawing.Point(831, 4);
+            this.media_Box20.Name = "media_Box20";
+            this.media_Box20.Size = new System.Drawing.Size(270, 192);
+            this.media_Box20.TabIndex = 3;
+            // 
+            // media_Box21
+            // 
+            this.media_Box21.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box21.Location = new System.Drawing.Point(1107, 4);
+            this.media_Box21.Name = "media_Box21";
+            this.media_Box21.Size = new System.Drawing.Size(270, 192);
+            this.media_Box21.TabIndex = 4;
+            // 
+            // media_Box22
+            // 
+            this.media_Box22.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box22.Location = new System.Drawing.Point(1383, 4);
+            this.media_Box22.Name = "media_Box22";
+            this.media_Box22.Size = new System.Drawing.Size(270, 192);
+            this.media_Box22.TabIndex = 5;
+            // 
+            // media_Box23
+            // 
+            this.media_Box23.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box23.Location = new System.Drawing.Point(1659, 4);
+            this.media_Box23.Name = "media_Box23";
+            this.media_Box23.Size = new System.Drawing.Size(270, 192);
+            this.media_Box23.TabIndex = 6;
+            // 
+            // media_Box24
+            // 
+            this.media_Box24.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box24.Location = new System.Drawing.Point(1935, 4);
+            this.media_Box24.Name = "media_Box24";
+            this.media_Box24.Size = new System.Drawing.Size(270, 192);
+            this.media_Box24.TabIndex = 7;
+            // 
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.AutoScroll = true;
@@ -160,6 +352,70 @@
             this.flowLayoutPanel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.flowLayoutPanel4.Size = new System.Drawing.Size(1115, 216);
             this.flowLayoutPanel4.TabIndex = 10;
+            // 
+            // media_Box25
+            // 
+            this.media_Box25.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box25.Location = new System.Drawing.Point(3, 4);
+            this.media_Box25.Name = "media_Box25";
+            this.media_Box25.Size = new System.Drawing.Size(270, 192);
+            this.media_Box25.TabIndex = 0;
+            // 
+            // media_Box26
+            // 
+            this.media_Box26.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box26.Location = new System.Drawing.Point(279, 4);
+            this.media_Box26.Name = "media_Box26";
+            this.media_Box26.Size = new System.Drawing.Size(270, 192);
+            this.media_Box26.TabIndex = 1;
+            // 
+            // media_Box27
+            // 
+            this.media_Box27.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box27.Location = new System.Drawing.Point(555, 4);
+            this.media_Box27.Name = "media_Box27";
+            this.media_Box27.Size = new System.Drawing.Size(270, 192);
+            this.media_Box27.TabIndex = 2;
+            // 
+            // media_Box28
+            // 
+            this.media_Box28.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box28.Location = new System.Drawing.Point(831, 4);
+            this.media_Box28.Name = "media_Box28";
+            this.media_Box28.Size = new System.Drawing.Size(270, 192);
+            this.media_Box28.TabIndex = 3;
+            // 
+            // media_Box29
+            // 
+            this.media_Box29.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box29.Location = new System.Drawing.Point(1107, 4);
+            this.media_Box29.Name = "media_Box29";
+            this.media_Box29.Size = new System.Drawing.Size(270, 192);
+            this.media_Box29.TabIndex = 4;
+            // 
+            // media_Box30
+            // 
+            this.media_Box30.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box30.Location = new System.Drawing.Point(1383, 4);
+            this.media_Box30.Name = "media_Box30";
+            this.media_Box30.Size = new System.Drawing.Size(270, 192);
+            this.media_Box30.TabIndex = 5;
+            // 
+            // media_Box31
+            // 
+            this.media_Box31.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box31.Location = new System.Drawing.Point(1659, 4);
+            this.media_Box31.Name = "media_Box31";
+            this.media_Box31.Size = new System.Drawing.Size(270, 192);
+            this.media_Box31.TabIndex = 6;
+            // 
+            // media_Box32
+            // 
+            this.media_Box32.BackColor = System.Drawing.SystemColors.Highlight;
+            this.media_Box32.Location = new System.Drawing.Point(1935, 4);
+            this.media_Box32.Name = "media_Box32";
+            this.media_Box32.Size = new System.Drawing.Size(270, 192);
+            this.media_Box32.TabIndex = 7;
             // 
             // panel1
             // 
@@ -272,262 +528,6 @@
             this.panel5.Size = new System.Drawing.Size(1112, 31);
             this.panel5.TabIndex = 17;
             // 
-            // media_Box25
-            // 
-            this.media_Box25.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box25.Location = new System.Drawing.Point(3, 4);
-            this.media_Box25.Name = "media_Box25";
-            this.media_Box25.Size = new System.Drawing.Size(270, 192);
-            this.media_Box25.TabIndex = 0;
-            // 
-            // media_Box26
-            // 
-            this.media_Box26.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box26.Location = new System.Drawing.Point(279, 4);
-            this.media_Box26.Name = "media_Box26";
-            this.media_Box26.Size = new System.Drawing.Size(270, 192);
-            this.media_Box26.TabIndex = 1;
-            // 
-            // media_Box27
-            // 
-            this.media_Box27.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box27.Location = new System.Drawing.Point(555, 4);
-            this.media_Box27.Name = "media_Box27";
-            this.media_Box27.Size = new System.Drawing.Size(270, 192);
-            this.media_Box27.TabIndex = 2;
-            // 
-            // media_Box28
-            // 
-            this.media_Box28.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box28.Location = new System.Drawing.Point(831, 4);
-            this.media_Box28.Name = "media_Box28";
-            this.media_Box28.Size = new System.Drawing.Size(270, 192);
-            this.media_Box28.TabIndex = 3;
-            // 
-            // media_Box29
-            // 
-            this.media_Box29.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box29.Location = new System.Drawing.Point(1107, 4);
-            this.media_Box29.Name = "media_Box29";
-            this.media_Box29.Size = new System.Drawing.Size(270, 192);
-            this.media_Box29.TabIndex = 4;
-            // 
-            // media_Box30
-            // 
-            this.media_Box30.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box30.Location = new System.Drawing.Point(1383, 4);
-            this.media_Box30.Name = "media_Box30";
-            this.media_Box30.Size = new System.Drawing.Size(270, 192);
-            this.media_Box30.TabIndex = 5;
-            // 
-            // media_Box31
-            // 
-            this.media_Box31.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box31.Location = new System.Drawing.Point(1659, 4);
-            this.media_Box31.Name = "media_Box31";
-            this.media_Box31.Size = new System.Drawing.Size(270, 192);
-            this.media_Box31.TabIndex = 6;
-            // 
-            // media_Box32
-            // 
-            this.media_Box32.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box32.Location = new System.Drawing.Point(1935, 4);
-            this.media_Box32.Name = "media_Box32";
-            this.media_Box32.Size = new System.Drawing.Size(270, 192);
-            this.media_Box32.TabIndex = 7;
-            // 
-            // media_Box17
-            // 
-            this.media_Box17.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box17.Location = new System.Drawing.Point(3, 4);
-            this.media_Box17.Name = "media_Box17";
-            this.media_Box17.Size = new System.Drawing.Size(270, 192);
-            this.media_Box17.TabIndex = 0;
-            // 
-            // media_Box18
-            // 
-            this.media_Box18.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box18.Location = new System.Drawing.Point(279, 4);
-            this.media_Box18.Name = "media_Box18";
-            this.media_Box18.Size = new System.Drawing.Size(270, 192);
-            this.media_Box18.TabIndex = 1;
-            // 
-            // media_Box19
-            // 
-            this.media_Box19.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box19.Location = new System.Drawing.Point(555, 4);
-            this.media_Box19.Name = "media_Box19";
-            this.media_Box19.Size = new System.Drawing.Size(270, 192);
-            this.media_Box19.TabIndex = 2;
-            // 
-            // media_Box20
-            // 
-            this.media_Box20.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box20.Location = new System.Drawing.Point(831, 4);
-            this.media_Box20.Name = "media_Box20";
-            this.media_Box20.Size = new System.Drawing.Size(270, 192);
-            this.media_Box20.TabIndex = 3;
-            // 
-            // media_Box21
-            // 
-            this.media_Box21.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box21.Location = new System.Drawing.Point(1107, 4);
-            this.media_Box21.Name = "media_Box21";
-            this.media_Box21.Size = new System.Drawing.Size(270, 192);
-            this.media_Box21.TabIndex = 4;
-            // 
-            // media_Box22
-            // 
-            this.media_Box22.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box22.Location = new System.Drawing.Point(1383, 4);
-            this.media_Box22.Name = "media_Box22";
-            this.media_Box22.Size = new System.Drawing.Size(270, 192);
-            this.media_Box22.TabIndex = 5;
-            // 
-            // media_Box23
-            // 
-            this.media_Box23.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box23.Location = new System.Drawing.Point(1659, 4);
-            this.media_Box23.Name = "media_Box23";
-            this.media_Box23.Size = new System.Drawing.Size(270, 192);
-            this.media_Box23.TabIndex = 6;
-            // 
-            // media_Box24
-            // 
-            this.media_Box24.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box24.Location = new System.Drawing.Point(1935, 4);
-            this.media_Box24.Name = "media_Box24";
-            this.media_Box24.Size = new System.Drawing.Size(270, 192);
-            this.media_Box24.TabIndex = 7;
-            // 
-            // media_Box1
-            // 
-            this.media_Box1.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box1.Location = new System.Drawing.Point(3, 4);
-            this.media_Box1.Name = "media_Box1";
-            this.media_Box1.Size = new System.Drawing.Size(270, 192);
-            this.media_Box1.TabIndex = 0;
-            // 
-            // media_Box2
-            // 
-            this.media_Box2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box2.Location = new System.Drawing.Point(279, 4);
-            this.media_Box2.Name = "media_Box2";
-            this.media_Box2.Size = new System.Drawing.Size(270, 192);
-            this.media_Box2.TabIndex = 1;
-            // 
-            // media_Box3
-            // 
-            this.media_Box3.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box3.Location = new System.Drawing.Point(555, 4);
-            this.media_Box3.Name = "media_Box3";
-            this.media_Box3.Size = new System.Drawing.Size(270, 192);
-            this.media_Box3.TabIndex = 2;
-            // 
-            // media_Box4
-            // 
-            this.media_Box4.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box4.Location = new System.Drawing.Point(831, 4);
-            this.media_Box4.Name = "media_Box4";
-            this.media_Box4.Size = new System.Drawing.Size(270, 192);
-            this.media_Box4.TabIndex = 3;
-            // 
-            // media_Box5
-            // 
-            this.media_Box5.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box5.Location = new System.Drawing.Point(1107, 4);
-            this.media_Box5.Name = "media_Box5";
-            this.media_Box5.Size = new System.Drawing.Size(270, 192);
-            this.media_Box5.TabIndex = 4;
-            // 
-            // media_Box6
-            // 
-            this.media_Box6.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box6.Location = new System.Drawing.Point(1383, 4);
-            this.media_Box6.Name = "media_Box6";
-            this.media_Box6.Size = new System.Drawing.Size(270, 192);
-            this.media_Box6.TabIndex = 5;
-            // 
-            // media_Box7
-            // 
-            this.media_Box7.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box7.Location = new System.Drawing.Point(1659, 4);
-            this.media_Box7.Name = "media_Box7";
-            this.media_Box7.Size = new System.Drawing.Size(270, 192);
-            this.media_Box7.TabIndex = 6;
-            // 
-            // media_Box8
-            // 
-            this.media_Box8.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box8.Location = new System.Drawing.Point(1935, 4);
-            this.media_Box8.Name = "media_Box8";
-            this.media_Box8.Size = new System.Drawing.Size(270, 192);
-            this.media_Box8.TabIndex = 7;
-            // 
-            // media_Box9
-            // 
-            this.media_Box9.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box9.Location = new System.Drawing.Point(3, 4);
-            this.media_Box9.Name = "media_Box9";
-            this.media_Box9.Size = new System.Drawing.Size(270, 192);
-            this.media_Box9.TabIndex = 0;
-            // 
-            // media_Box10
-            // 
-            this.media_Box10.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box10.Location = new System.Drawing.Point(279, 4);
-            this.media_Box10.Name = "media_Box10";
-            this.media_Box10.Size = new System.Drawing.Size(270, 192);
-            this.media_Box10.TabIndex = 1;
-            // 
-            // media_Box11
-            // 
-            this.media_Box11.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box11.Location = new System.Drawing.Point(555, 4);
-            this.media_Box11.Name = "media_Box11";
-            this.media_Box11.Size = new System.Drawing.Size(270, 192);
-            this.media_Box11.TabIndex = 2;
-            // 
-            // media_Box12
-            // 
-            this.media_Box12.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box12.Location = new System.Drawing.Point(831, 4);
-            this.media_Box12.Name = "media_Box12";
-            this.media_Box12.Size = new System.Drawing.Size(270, 192);
-            this.media_Box12.TabIndex = 3;
-            // 
-            // media_Box13
-            // 
-            this.media_Box13.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box13.Location = new System.Drawing.Point(1107, 4);
-            this.media_Box13.Name = "media_Box13";
-            this.media_Box13.Size = new System.Drawing.Size(270, 192);
-            this.media_Box13.TabIndex = 4;
-            // 
-            // media_Box14
-            // 
-            this.media_Box14.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box14.Location = new System.Drawing.Point(1383, 4);
-            this.media_Box14.Name = "media_Box14";
-            this.media_Box14.Size = new System.Drawing.Size(270, 192);
-            this.media_Box14.TabIndex = 5;
-            // 
-            // media_Box15
-            // 
-            this.media_Box15.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box15.Location = new System.Drawing.Point(1659, 4);
-            this.media_Box15.Name = "media_Box15";
-            this.media_Box15.Size = new System.Drawing.Size(270, 192);
-            this.media_Box15.TabIndex = 6;
-            // 
-            // media_Box16
-            // 
-            this.media_Box16.BackColor = System.Drawing.SystemColors.Highlight;
-            this.media_Box16.Location = new System.Drawing.Point(1935, 4);
-            this.media_Box16.Name = "media_Box16";
-            this.media_Box16.Size = new System.Drawing.Size(270, 192);
-            this.media_Box16.TabIndex = 7;
-            // 
             // Log_out_btn
             // 
             this.Log_out_btn.Location = new System.Drawing.Point(11, 5);
@@ -544,7 +544,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1112, 582);
+            this.ClientSize = new System.Drawing.Size(1129, 599);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.search_btn);
             this.Controls.Add(this.textBox1);
@@ -554,12 +554,12 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.flowLayoutPanel3);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.Action_flowLayoutPane);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Name = "Home_Page";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home_Page";
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.Action_flowLayoutPane.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
@@ -579,7 +579,7 @@
 
         #endregion
 
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel Action_flowLayoutPane;
         private Media_Box media_Box1;
         private Media_Box media_Box2;
         private Media_Box media_Box3;
