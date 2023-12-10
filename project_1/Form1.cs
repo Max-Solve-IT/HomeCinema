@@ -81,11 +81,10 @@ namespace project_1
 
                 home_Page.Show();
                 this.Hide();
+
                 home_Page.FormClosed += (s, args) => this.Close();
 
-                //this.Dispose();
-
-                //MessageBox.Show("Passed");
+                
             }
             else
             {
