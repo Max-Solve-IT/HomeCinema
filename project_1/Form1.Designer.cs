@@ -42,6 +42,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel1.Controls.Add(this.sign_up_btn);
             this.panel1.Controls.Add(this.checkBox1);
@@ -92,6 +93,7 @@
             this.Password_field.Size = new System.Drawing.Size(239, 37);
             this.Password_field.TabIndex = 3;
             this.Password_field.Text = "Password";
+            this.Password_field.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Password_field_MouseClick);
             this.Password_field.TextChanged += new System.EventHandler(this.Password_TextChanged);
             this.Password_field.Enter += new System.EventHandler(this.Password_field_Enter);
             this.Password_field.Leave += new System.EventHandler(this.Password_field_Leave);
@@ -150,6 +152,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

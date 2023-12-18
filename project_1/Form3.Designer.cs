@@ -34,10 +34,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.file_name = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.checkBox_action = new System.Windows.Forms.CheckBox();
-            this.checkBox_drama = new System.Windows.Forms.CheckBox();
-            this.checkBox_thiller = new System.Windows.Forms.CheckBox();
-            this.checkBox_horror = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.File_path = new System.Windows.Forms.TextBox();
             this.upload_btn = new System.Windows.Forms.Button();
@@ -47,9 +43,16 @@
             this.poster_view_panel = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.animation_radioButton = new System.Windows.Forms.RadioButton();
+            this.thiller_radioButton = new System.Windows.Forms.RadioButton();
+            this.comedy_radioButton = new System.Windows.Forms.RadioButton();
+            this.horror_radioButton = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.sifi_radioButton = new System.Windows.Forms.RadioButton();
+            this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +62,8 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -91,63 +96,16 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(74, 420);
+            this.label3.Location = new System.Drawing.Point(75, 409);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 21);
             this.label3.TabIndex = 3;
             this.label3.Text = "Chose Catagory";
-            // 
-            // checkBox_action
-            // 
-            this.checkBox_action.AutoSize = true;
-            this.checkBox_action.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_action.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox_action.Location = new System.Drawing.Point(78, 462);
-            this.checkBox_action.Name = "checkBox_action";
-            this.checkBox_action.Size = new System.Drawing.Size(67, 21);
-            this.checkBox_action.TabIndex = 4;
-            this.checkBox_action.Text = "Action";
-            this.checkBox_action.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_drama
-            // 
-            this.checkBox_drama.AutoSize = true;
-            this.checkBox_drama.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_drama.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox_drama.Location = new System.Drawing.Point(78, 485);
-            this.checkBox_drama.Name = "checkBox_drama";
-            this.checkBox_drama.Size = new System.Drawing.Size(68, 21);
-            this.checkBox_drama.TabIndex = 5;
-            this.checkBox_drama.Text = "Drama";
-            this.checkBox_drama.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_thiller
-            // 
-            this.checkBox_thiller.AutoSize = true;
-            this.checkBox_thiller.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_thiller.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox_thiller.Location = new System.Drawing.Point(78, 508);
-            this.checkBox_thiller.Name = "checkBox_thiller";
-            this.checkBox_thiller.Size = new System.Drawing.Size(72, 21);
-            this.checkBox_thiller.TabIndex = 6;
-            this.checkBox_thiller.Text = "Thriller";
-            this.checkBox_thiller.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_horror
-            // 
-            this.checkBox_horror.AutoSize = true;
-            this.checkBox_horror.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_horror.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox_horror.Location = new System.Drawing.Point(78, 531);
-            this.checkBox_horror.Name = "checkBox_horror";
-            this.checkBox_horror.Size = new System.Drawing.Size(68, 21);
-            this.checkBox_horror.TabIndex = 7;
-            this.checkBox_horror.Text = "Horror";
-            this.checkBox_horror.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -171,17 +129,21 @@
             // 
             // upload_btn
             // 
-            this.upload_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upload_btn.BackColor = System.Drawing.Color.Red;
+            this.upload_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.upload_btn.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upload_btn.ForeColor = System.Drawing.Color.White;
             this.upload_btn.Location = new System.Drawing.Point(325, 236);
             this.upload_btn.Name = "upload_btn";
-            this.upload_btn.Size = new System.Drawing.Size(75, 23);
+            this.upload_btn.Size = new System.Drawing.Size(75, 28);
             this.upload_btn.TabIndex = 10;
             this.upload_btn.Text = "Upload";
-            this.upload_btn.UseVisualStyleBackColor = true;
+            this.upload_btn.UseVisualStyleBackColor = false;
             this.upload_btn.Click += new System.EventHandler(this.upload_btn_Click);
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -195,6 +157,7 @@
             // 
             // poster_path
             // 
+            this.poster_path.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.poster_path.Location = new System.Drawing.Point(635, 324);
             this.poster_path.Multiline = true;
             this.poster_path.Name = "poster_path";
@@ -203,17 +166,24 @@
             // 
             // poster_upload_btn
             // 
-            this.poster_upload_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.poster_upload_btn.Location = new System.Drawing.Point(790, 363);
+            this.poster_upload_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.poster_upload_btn.BackColor = System.Drawing.Color.Red;
+            this.poster_upload_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.poster_upload_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.poster_upload_btn.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.poster_upload_btn.ForeColor = System.Drawing.Color.White;
+            this.poster_upload_btn.Location = new System.Drawing.Point(780, 356);
             this.poster_upload_btn.Name = "poster_upload_btn";
-            this.poster_upload_btn.Size = new System.Drawing.Size(75, 23);
+            this.poster_upload_btn.Size = new System.Drawing.Size(75, 28);
             this.poster_upload_btn.TabIndex = 13;
             this.poster_upload_btn.Text = "Upload";
-            this.poster_upload_btn.UseVisualStyleBackColor = true;
+            this.poster_upload_btn.UseVisualStyleBackColor = false;
             this.poster_upload_btn.Click += new System.EventHandler(this.poster_upload_btn_Click);
             // 
             // poster_view_panel
             // 
+            this.poster_view_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.poster_view_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.poster_view_panel.Location = new System.Drawing.Point(535, 85);
             this.poster_view_panel.Name = "poster_view_panel";
             this.poster_view_panel.Size = new System.Drawing.Size(330, 194);
@@ -221,6 +191,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -233,8 +204,18 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.animation_radioButton);
+            this.panel1.Controls.Add(this.thiller_radioButton);
+            this.panel1.Controls.Add(this.comedy_radioButton);
+            this.panel1.Controls.Add(this.horror_radioButton);
+            this.panel1.Controls.Add(this.radioButton2);
+            this.panel1.Controls.Add(this.sifi_radioButton);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.checkBox2);
@@ -246,10 +227,6 @@
             this.panel1.Controls.Add(this.upload_btn);
             this.panel1.Controls.Add(this.File_path);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.checkBox_horror);
-            this.panel1.Controls.Add(this.checkBox_thiller);
-            this.panel1.Controls.Add(this.checkBox_drama);
-            this.panel1.Controls.Add(this.checkBox_action);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.file_name);
             this.panel1.Controls.Add(this.label2);
@@ -259,8 +236,129 @@
             this.panel1.Size = new System.Drawing.Size(932, 596);
             this.panel1.TabIndex = 0;
             // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(724, 552);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 28);
+            this.button2.TabIndex = 27;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // animation_radioButton
+            // 
+            this.animation_radioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.animation_radioButton.AutoSize = true;
+            this.animation_radioButton.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.animation_radioButton.ForeColor = System.Drawing.Color.White;
+            this.animation_radioButton.Location = new System.Drawing.Point(79, 490);
+            this.animation_radioButton.Name = "animation_radioButton";
+            this.animation_radioButton.Size = new System.Drawing.Size(91, 21);
+            this.animation_radioButton.TabIndex = 26;
+            this.animation_radioButton.TabStop = true;
+            this.animation_radioButton.Text = "Animation";
+            this.animation_radioButton.UseVisualStyleBackColor = true;
+            this.animation_radioButton.CheckedChanged += new System.EventHandler(this.animation_radioButton_CheckedChanged);
+            // 
+            // thiller_radioButton
+            // 
+            this.thiller_radioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.thiller_radioButton.AutoSize = true;
+            this.thiller_radioButton.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thiller_radioButton.ForeColor = System.Drawing.Color.White;
+            this.thiller_radioButton.Location = new System.Drawing.Point(79, 513);
+            this.thiller_radioButton.Name = "thiller_radioButton";
+            this.thiller_radioButton.Size = new System.Drawing.Size(66, 21);
+            this.thiller_radioButton.TabIndex = 25;
+            this.thiller_radioButton.TabStop = true;
+            this.thiller_radioButton.Text = "Thiller";
+            this.thiller_radioButton.UseVisualStyleBackColor = true;
+            this.thiller_radioButton.CheckedChanged += new System.EventHandler(this.thiller_radioButton_CheckedChanged);
+            // 
+            // comedy_radioButton
+            // 
+            this.comedy_radioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.comedy_radioButton.AutoSize = true;
+            this.comedy_radioButton.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comedy_radioButton.ForeColor = System.Drawing.Color.White;
+            this.comedy_radioButton.Location = new System.Drawing.Point(79, 536);
+            this.comedy_radioButton.Name = "comedy_radioButton";
+            this.comedy_radioButton.Size = new System.Drawing.Size(76, 21);
+            this.comedy_radioButton.TabIndex = 24;
+            this.comedy_radioButton.TabStop = true;
+            this.comedy_radioButton.Text = "Comedy";
+            this.comedy_radioButton.UseVisualStyleBackColor = true;
+            this.comedy_radioButton.CheckedChanged += new System.EventHandler(this.comedy_radioButton_CheckedChanged);
+            // 
+            // horror_radioButton
+            // 
+            this.horror_radioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.horror_radioButton.AutoSize = true;
+            this.horror_radioButton.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.horror_radioButton.ForeColor = System.Drawing.Color.White;
+            this.horror_radioButton.Location = new System.Drawing.Point(79, 559);
+            this.horror_radioButton.Name = "horror_radioButton";
+            this.horror_radioButton.Size = new System.Drawing.Size(67, 21);
+            this.horror_radioButton.TabIndex = 23;
+            this.horror_radioButton.TabStop = true;
+            this.horror_radioButton.Text = "Horror";
+            this.horror_radioButton.UseVisualStyleBackColor = true;
+            this.horror_radioButton.CheckedChanged += new System.EventHandler(this.horror_radioButton_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.ForeColor = System.Drawing.Color.White;
+            this.radioButton2.Location = new System.Drawing.Point(79, 444);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(66, 21);
+            this.radioButton2.TabIndex = 22;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Action";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // sifi_radioButton
+            // 
+            this.sifi_radioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.sifi_radioButton.AutoSize = true;
+            this.sifi_radioButton.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sifi_radioButton.ForeColor = System.Drawing.Color.White;
+            this.sifi_radioButton.Location = new System.Drawing.Point(79, 467);
+            this.sifi_radioButton.Name = "sifi_radioButton";
+            this.sifi_radioButton.Size = new System.Drawing.Size(53, 21);
+            this.sifi_radioButton.TabIndex = 21;
+            this.sifi_radioButton.TabStop = true;
+            this.sifi_radioButton.Text = "SI-FI";
+            this.sifi_radioButton.UseVisualStyleBackColor = true;
+            this.sifi_radioButton.CheckedChanged += new System.EventHandler(this.sifi_radioButton_CheckedChanged);
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(820, 552);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 28);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Confirm Upload";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // checkBox1
             // 
+            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -273,6 +371,7 @@
             // 
             // checkBox2
             // 
+            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
@@ -282,17 +381,6 @@
             this.checkBox2.TabIndex = 18;
             this.checkBox2.Text = "Movie";
             this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(406, 530);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Confirm Upload";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form3
             // 
@@ -305,7 +393,9 @@
             this.ClientSize = new System.Drawing.Size(1255, 689);
             this.Controls.Add(this.panel1);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.form3_load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -318,10 +408,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox file_name;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.CheckBox checkBox_action;
-        private System.Windows.Forms.CheckBox checkBox_drama;
-        private System.Windows.Forms.CheckBox checkBox_thiller;
-        private System.Windows.Forms.CheckBox checkBox_horror;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox File_path;
         private System.Windows.Forms.Button upload_btn;
@@ -334,5 +420,12 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton animation_radioButton;
+        private System.Windows.Forms.RadioButton thiller_radioButton;
+        private System.Windows.Forms.RadioButton comedy_radioButton;
+        private System.Windows.Forms.RadioButton horror_radioButton;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton sifi_radioButton;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -51,9 +51,12 @@
             this.poster.Location = new System.Drawing.Point(0, 3);
             this.poster.Name = "poster";
             this.poster.Size = new System.Drawing.Size(267, 161);
-            this.poster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.poster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.poster.TabIndex = 2;
             this.poster.TabStop = false;
+            this.poster.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Mouse_click);
+            this.poster.MouseEnter += new System.EventHandler(this.Mouse_endter);
+            this.poster.MouseLeave += new System.EventHandler(this.Mouse_leave);
             // 
             // Media_Box
             // 
@@ -64,6 +67,9 @@
             this.Controls.Add(this.Title_lable);
             this.Name = "Media_Box";
             this.Size = new System.Drawing.Size(270, 192);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Mouse_click);
+            this.MouseEnter += new System.EventHandler(this.Mouse_endter);
+            this.MouseLeave += new System.EventHandler(this.Mouse_leave);
             ((System.ComponentModel.ISupportInitialize)(this.poster)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -72,6 +78,6 @@
 
         #endregion
         private System.Windows.Forms.Label Title_lable;
-        private System.Windows.Forms.PictureBox poster;
+        public System.Windows.Forms.PictureBox poster;
     }
 }

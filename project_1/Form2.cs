@@ -21,6 +21,7 @@ namespace project_1
         {
             InitializeComponent();
             player.URL = link;
+            volume_level.Text = $"{(int)(player.settings.volume)}%";
             // "C:\Users\Swajan\Downloads\testVideo.mp4"
         }
 
